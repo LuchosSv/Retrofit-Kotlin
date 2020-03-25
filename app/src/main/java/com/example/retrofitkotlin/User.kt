@@ -2,9 +2,9 @@ package com.example.retrofitkotlin
 
 class User(
 
-    val id: Int,
-    val name: String,
+    val firstName: String,
     val email: String,
-    val username: String
+    val lastName: String,
+    val website: String
 
 )
