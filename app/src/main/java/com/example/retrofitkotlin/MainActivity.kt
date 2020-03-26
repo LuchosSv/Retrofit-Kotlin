@@ -30,8 +30,8 @@ class MainActivity : AppCompatActivity() {
 
             override fun onResponse(call: Call<List<User>>, response: Response<List<User>>) {
                 showData(response.body()!!)
-                //d("daniel", "onResponse: ${response.body()!![0].email}")
-                d("daniel", "onResponse: ${response.body()!![0].firstName}")
+                d("daniel", "onResponse: ${response.body()!![0].email}")
+                //d("daniel", "onResponse: ${response.body()!![0].firstName}")
             }
 
             override fun onFailure(call: Call<List<User>>, t: Throwable) {
